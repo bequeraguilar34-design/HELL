@@ -1,0 +1,50 @@
+{
+    "tienda": "ECHO-Sync Global",
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "ECHO-Pulse Pro (Headset)",
+            "tipo": "Físico",
+            "categoria": "Audio",
+            "descripcion": "Audífonos con cancelación de ruido activa y transductores de 50mm.",
+            "precio": 1850.00,
+            "imagen": "image1.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "ECHO-Void Wireless",
+            "tipo": "Físico",
+            "categoria": "Audio",
+            "descripcion": "Audífonos inalámbricos de baja latencia con sonido espacial 7.1.",
+            "precio": 2100.00,
+            "imagen": "image3.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "KeySync Mech RGB",
+            "tipo": "Físico",
+            "categoria": "Periférico",
+            "descripcion": "Audifonos razer con baja latencia y una comodidad de audio confiable.",
+            "precio": 1200.00,
+            "imagen": "image5.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Glide-Sync Mouse",
+            "tipo": "Físico",
+            "categoria": "Periférico",
+            "descripcion": "Mouse ergonómico de 25,000 DPI con pesas ajustables.",
+            "precio": 950.00,
+            "imagen": "image4.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "ECHO-Control Suite",
+            "tipo": "Software",
+            "categoria": "Utilidad",
+            "descripcion": "Licencia vitalicia para gestión de perfiles de audio y macros en la nube.",
+            "precio": 450.00,
+            "imagen": "image2.jpg"
+        }
+    ]
+}

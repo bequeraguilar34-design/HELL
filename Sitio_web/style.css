@@ -1,0 +1,129 @@
+/* Configuración General */
+:root {
+    --primary: #00f2ff;
+    --secondary: #7000ff;
+    --dark: #0f0f12;
+    --light: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* Navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid var(--primary);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+    text-shadow: 0 0 10px var(--primary);
+}
+
+/* Animación RGB para el Título */
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+    animation: rgbText 5s infinite linear;
+}
+
+@keyframes rgbText {
+    0% { color: #ff0000; }
+    33% { color: #00ff00; }
+    66% { color: #0000ff; }
+    100% { color: #ff0000; }
+}
+
+/* Layout de Texto Vertical y Horizontal */
+.hero-container {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.text-vertical {
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: rgba(255,255,255,0.1);
+    letter-spacing: 10px;
+}
+
+/* Grid de Productos */
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #1a1a1f;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #333;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: var(--secondary);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Formularios */
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #1a1a1f;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #000;
+    border: 1px solid #444;
+    color: white;
+}
+
+button {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}

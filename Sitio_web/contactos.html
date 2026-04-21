@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ECHO-Sync | Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ECHO-Sync</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="registros.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-container">
+        <h2>Soporte y Consultas</h2>
+        <form id="formContacto">
+            <input type="text" placeholder="Asunto" required>
+            <textarea placeholder="Cuéntanos tus dudas sobre nuevos productos..." rows="6"></textarea>
+            <button type="button" onclick="enviarDuda()">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
